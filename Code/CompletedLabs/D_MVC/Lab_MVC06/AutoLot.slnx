@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Folder/">
+    <File Path="MVC_Lab6.txt" />
+
+  </Folder>
+  <Project Path="../../B_EFCore/Lab_EF07/AutoLot.Dal/AutoLot.Dal.csproj" />
+  <Project Path="../../B_EFCore/Lab_EF07/AutoLot.Models/AutoLot.Models.csproj" />
+  <Project Path="AutoLot.Mvc/AutoLot.Mvc.csproj" />
+  <Project Path="AutoLot.Services/AutoLot.Services.csproj" />
+</Solution>

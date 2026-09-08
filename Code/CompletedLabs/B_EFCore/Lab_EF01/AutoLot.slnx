@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Folder/">
+    <File Path="DAL_Lab1.txt" />
+  </Folder>
+  <Project Path="AutoLot.Dal.Tests/AutoLot.Dal.Tests.csproj" />
+  <Project Path="AutoLot.Dal/AutoLot.Dal.csproj" />
+  <Project Path="AutoLot.Models/AutoLot.Models.csproj" />
+  <Project Path="AutoLot.Services/AutoLot.Services.csproj" />
+</Solution>
