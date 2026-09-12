@@ -162,7 +162,7 @@ Overridden Configure method:
 	}
 ```
 # Update the Global Usings File
-Add the following to the "GlobalUsings.cs" file:
+Add the following to the "GlobalUsings.cs" file (this will be expanded in later labs):
 ```csharp
 global using AutoLot.Models.Entities.Configuration;
 global using AutoLot.Models.ViewModels.Configuration;

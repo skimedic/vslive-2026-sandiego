@@ -1,7 +1,15 @@
 <Solution>
-  <Folder Name="/Solution Folder/">
+  <Folder Name="/Solution Items/">
     <File Path="MVC_Lab3.txt" />
-
+  </Folder>
+  <Folder Name="/Solution Items/CLI Files/">
+    <File Path="createprojects_MVC.cmd" />
+    <File Path="createprojects_MVC.ps1" />
+    <File Path="createprojects_MVC.sh" />
+  </Folder>
+  <Folder Name="/Solution Items/Prompts/" />
+  <Folder Name="/Solution Items/Prompts/WebApps/">
+    <File Path="Prompts/C_WebApp/Lab_Web02a.md" />
   </Folder>
   <Project Path="../../B_EFCore/Lab_EF07/AutoLot.Dal/AutoLot.Dal.csproj" />
   <Project Path="../../B_EFCore/Lab_EF07/AutoLot.Models/AutoLot.Models.csproj" />

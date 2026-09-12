@@ -1,11 +1,12 @@
-## Build The Models and View Models
+## Add The Models and View Models
 You are a C# developer that specializes in Entity Framework Core.
 
 Make sure to read and ingest the general instructions file (.github/copilot-instructions.md) and the C# instructions (.github/instructions/csharp.instructions.md).
 This entire lab takes place in the AutoLot.Models Project.
 
+Note: Configuration classes are created in the next prompt.  
 # Create Global Usings
-Rename the class "Class1.cs" to "GlobalUsings.cs" and add the following code to it:
+If a template Class1.cs exists, rename it to GlobalUsings.cs; otherwise create the file. Add the following initial code to it (this will be expanded in later labs):
 ```csharp
 global using Microsoft.EntityFrameworkCore;
 global using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -16,7 +17,8 @@ global using System.Globalization;
 global using System.Xml.Linq;
 ```
 # Create Folders
-Create the following folders and subfolders in the project:
+Create the following folders and subfolders in the project:  
+NOTE: The configuration classes will be added in the next prompt  
 - Entities
     - Base
     - ComplexTypes

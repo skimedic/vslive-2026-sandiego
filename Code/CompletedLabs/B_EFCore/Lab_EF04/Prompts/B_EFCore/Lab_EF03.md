@@ -6,7 +6,7 @@ All updates in this lab take place in the AutoLot.Dal Project.
 The AutoLot.Models project contains the entity classes and the AutoLot.Dal project contains the DbContext and the DbContextFactory.
 
 # Create Global Usings
-Rename the class "Class1.cs" to "GlobalUsings.cs" and add the following code to it:
+If a template Class1.cs exists, rename it to GlobalUsings.cs; otherwise create the file. Add the following initial code to it (this will be expanded in later labs):
 ```csharp
 global using AutoLot.Models.Entities;
 global using AutoLot.Models.Entities.Base;
@@ -38,10 +38,11 @@ Create the following folder in the project:
 ## Class Name: ApplicationDbContext
 Location: EfStructures  
 Derives from: DbContext(options)  
-Constructor parameters: DbContextOptions<ApplicationDbContext> options
+Constructor parameters: DbContextOptions<ApplicationDbContext> options (use a primary constructor)  
 Properties:
-    Create a public DbSet property for each of the entities in the AutoLot.Models.Entities and 
-      AutoLot.Models.ViewModels.Configuration namespaces
+    Create a public DbSet property for each of the entities/view models in the AutoLot.Models.Entities and 
+      AutoLot.Models.ViewModels.Configuration namespaces:  
+    Car, CarDriver, Driver, Make, Radio, SeriLogEntry, and CarViewModel
 
 Override the OnModelCreating method to apply configurations from the AutoLot.Models.Entities.Configuration and AutoLot.Models.ViewModels.Configuration namespaces.
 

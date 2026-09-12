@@ -5,7 +5,7 @@ Make sure to read and ingest the general instructions file (.github/copilot-inst
 This entire lab takes place in the AutoLot.Services Project.
 
 # Create Global Usings
-Rename the class "Class1.cs" to "GlobalUsings.cs" and add the following code to it:
+If a template Class1.cs exists, rename it to GlobalUsings.cs; otherwise create the file. Add the following initial code to it (this will be expanded in later labs):
 ```csharp
 global using AutoLot.Dal.Repos;
 global using AutoLot.Dal.Repos.Base;
@@ -63,7 +63,7 @@ Contained Classes:
 Properties:  
 - General (GeneralSettings - defined above, required)
 - File (FileSettings - defined above, required)
-- MSSqlServer (SqlServerSettings - defined above, required)
+- MsSqlServer (SqlServerSettings - defined above, required)
 
 ### Interface Name: IAppLogger  
 Location: Logging/Interfaces  
@@ -163,7 +163,7 @@ Methods:
 The remainder of the interface functions will call either LogWithException or LogWithoutException with the appropriate parameters and logAction.
 
 # String Extensions
-Create new folder in the project named Utilities, and in the folder create a new static class named StringExtensions.cs. Add the following code to the class:
+Create new folder in the project named Utilities, and in the folder create a new static class named StringExtensions.cs. Add the following code to the class (using the C#14 extension block syntax):
 ```csharp
 public static class StringExtensions
 {
@@ -192,7 +192,7 @@ Create new folder in the project named Simple and a subfolder named Interfaces.
 ## Interface Name: ISimpleService  
 Location: Simple\Interfaces  
 Method:  
-- SayHello (string)  
+- SayHello  
   - Return Type: string  
   - Parameters: none  
 

@@ -1,6 +1,18 @@
 <Solution>
-  <Folder Name="/Solution Folder/">
+  <Folder Name="/Solution Items/">
     <File Path="DAL_Lab7.txt" />
+  </Folder>
+  <Folder Name="/Solution Items/CLI Files/">
+    <File Path="createsolutionandprojects_DAL.cmd" />
+    <File Path="createsolutionandprojects_DAL.ps1" />
+    <File Path="createsolutionandprojects_DAL.sh" />
+  </Folder>
+  <Folder Name="/Solution Items/Prompts/" />
+  <Folder Name="/Solution Items/Prompts/EFCore/">
+    <File Path="Prompts/B_EFCore/Lab_EF02_A.md" />
+    <File Path="Prompts/B_EFCore/Lab_EF02_B.md" />
+    <File Path="Prompts/B_EFCore/Lab_EF03.md" />
+    <File Path="Prompts/B_EFCore/Lab_EF04.md" />
   </Folder>
   <Project Path="AutoLot.Dal.Tests/AutoLot.Dal.Tests.csproj" />
   <Project Path="AutoLot.Dal/AutoLot.Dal.csproj" />

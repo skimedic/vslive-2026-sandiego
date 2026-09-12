@@ -1,7 +1,13 @@
 <Solution>
-  <Folder Name="/Solution Folder/">
+  <Folder Name="/Solution Items/">
     <File Path="DAL_Lab1.txt" />
   </Folder>
+  <Folder Name="/Solution Items/CLI Files/">
+    <File Path="createsolutionandprojects_DAL.cmd" />
+    <File Path="createsolutionandprojects_DAL.ps1" />
+    <File Path="createsolutionandprojects_DAL.sh" />
+  </Folder>
+
   <Project Path="AutoLot.Dal.Tests/AutoLot.Dal.Tests.csproj" />
   <Project Path="AutoLot.Dal/AutoLot.Dal.csproj" />
   <Project Path="AutoLot.Models/AutoLot.Models.csproj" />

@@ -12,6 +12,7 @@ The custom exception is added to the AutoLot.Models project. Create a new folder
 ## Class Name: CustomException
 Location: AutoLot.Models/Exceptions  
 Derives from: Exception  
+Note: Do not use a base folder for this class  
 Constructor parameters: 
     - empty, 
     - string message
@@ -19,7 +20,7 @@ Constructor parameters:
 Properties: <none>
 
 ### Update the Global Usings Files
-Update the GlobalUsings.cs file in the AutoLot.Models and AutoLot.Dal projects to include the following using statement:
+Update the GlobalUsings.cs file in the AutoLot.Models and AutoLot.Dal projects to include the following using statement if they are not already included:
 ```csharp
 global using AutoLot.Models.Exceptions;
 ```
@@ -55,7 +56,7 @@ Constructor parameters:
 Properties: <none>
 
 ### Update the Global Usings Files
-Update the GlobalUsings.cs file in the AutoLot.Dal project to include the following using statement:
+Update the GlobalUsings.cs file in the AutoLot.Dal project to include the following using statement if they are not already included:
 ```csharp
 global using AutoLot.Dal.Exceptions;
 ```
